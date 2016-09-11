@@ -36,4 +36,5 @@
   sudo easy_install pip
 ```
 - [YouDao](http://cidian.youdao.com/index-linux.html)
+- put `echo 0 > /sys/module/hid_apple/parameters/iso_layoutV` into /etc/rc.local
 

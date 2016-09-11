@@ -365,9 +365,3 @@ zle -N backward-delete-char check-cmd-backward-delete-char
 # ls colors
 eval `dircolors ~/.dircolors`
 
-# backquote bug
-# sudo echo 0 > /sys/module/hid_apple/parameters/iso_layout
-
-# set key repeat rate delay: 220ms, repeat rate: 50
-xset r rate 220 50
-
