@@ -246,6 +246,7 @@ bindkey "\e\e" sudo-command-line
 # alias sublime="open -a /Applications/Sublime\ Text.app"
 # alias srctr="open -a /Applications/SourceTree.app"
 alias ls='ls --color'
+alias chrome='google-chrome'
 # alis cp='cp -i'
 # alis mv='mv -i'
 # alis rm='rm -i'
