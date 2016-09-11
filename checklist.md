@@ -56,9 +56,9 @@ sudo apt-get install npm
  * Click "Add"
 
 ### Shortcuts
-- screenshots: `System Settings > Keyboard > Shortcuts > Screenshots`
-- nautilus: `Super+n`
-- browser: `Super+b`
+- Screenshots: `System Settings > Keyboard > Shortcuts > Screenshots`
+- Nautilus: `Super+n`
+- Browser: `Super+b`
 
 ### Theme Customization
 #### Ambiance lime Theme
