@@ -362,4 +362,12 @@ check-cmd-backward-delete-char() { zle .backward-delete-char && recolor-cmd }
 zle -N self-insert check-cmd-self-insert
 zle -N backward-delete-char check-cmd-backward-delete-char
 
+# ls colors
 eval `dircolors ~/.dircolors`
+
+# backquote bug
+echo 0 > /sys/module/hid_apple/parameters/iso_layout
+
+# set key repeat rate delay: 220ms, repeat rate: 50
+xset r rate 220 50
+

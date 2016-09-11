@@ -7,6 +7,7 @@ filetype plugin indent on
 " indent settings 
 set tabstop=4
 set expandtab
+set softtabstop=4
 set shiftwidth=4
 
 " auto-indentation 
