@@ -366,3 +366,4 @@ zle -N backward-delete-char check-cmd-backward-delete-char
 # ls colors
 eval `dircolors ~/.dircolors`
 
+PATH=$PATH:.
