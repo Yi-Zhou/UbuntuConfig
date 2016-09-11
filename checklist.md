@@ -1,17 +1,4 @@
-# Ubuntu
-- For MacBook only, fixes backtick mapping:
-```shell
- sudo su -
- echo 0 > /sys/module/hid_apple/parameters/iso_layout
-``` 
-- Open Terminal on login
- * press the Super key(windows key).
- * Type "Startup Applications"
- * Click on the Startup Applications option.
- * Click "Add"
- * In the "name" field, type Terminal.
- * In the "command" field, type gnome-terminal.
- * Click "Add"aa
+# Ubuntu 16.04 Configuration Checklist
 
 - Change Fn key (For Mac) `sudo bash -c "echo 2 > /sys/module/hid_apple/parameters/fnmode"
 `
