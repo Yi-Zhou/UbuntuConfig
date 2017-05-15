@@ -35,9 +35,20 @@ sudo apt-get install npm
   sudo easy_install pip
 ```
 
+- Acrobat Reader
+```sh
+sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
+sudo apt-get update
+sudo apt install adobereader-enu
+```
+
 ## Applications
 - [Sublime Text 3](https://www.sublimetext.com/3)
 - FileZilla (Software Center)
+- TexMaker (Software Center)
+```sh
+  sudo apt remove appmenu-qt5
+```
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [Astrill](https://github.com/Yi-Zhou/UbuntuConfig.git)
 - [SogouPinyin](http://pinyin.sogou.com/linux/?r=pinyin)
